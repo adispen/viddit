@@ -1,7 +1,7 @@
 var cronJob = require('cron').CronJob;
 var jsdom = require('jsdom');
 var job = new cronJob({
-  cronTime: '00 00 12 * * 0-6',
+  cronTime: '00 30 09 * * 0-6',
   onTick: function() {
 jsdom.env({
 	html: 'http://reddit.com/domain/youtube.com',
