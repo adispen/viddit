@@ -2,7 +2,7 @@
  var Sendgrid = require("sendgrid-web");
 
     var sendgrid = new Sendgrid({
-      user: "adispen",
+      user: "adisp",
       key: "AD4A1F547BBED"
     });
 
