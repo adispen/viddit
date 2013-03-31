@@ -9,8 +9,7 @@ jsdom.env({
 			return { 
 			title: $('a.title', thing).text(),
 			href: $('a.title', thing).attr('href'),
-			score: $('.score.unvoted', thing).text(),
-			numComments: $('a.comments', thing).text().match(/^[0-9]*/)[0] || 0
+			permalink: $('a.comments', thing).attr('href'),
 		};
 	});
 

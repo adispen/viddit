@@ -1,5 +1,5 @@
 
- var Sendgrid = require("sendgrid-web");
+ var Sendgrid = require("sendgrid");
 
     var sendgrid = new Sendgrid({
       user: "adisp",
