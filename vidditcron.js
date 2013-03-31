@@ -74,14 +74,14 @@ jsdom.env({
 	var Sendgrid = require("sendgrid-web");
 
     var sendgrid = new Sendgrid({
-      user: "adisp",
-      key: "6B9AF19B5C337"
+      user: "",
+      key: ""
     });
 
     var html = '<body><font color="black"><h1><center><br><br>Here are the top videos on Reddit for '+datetime+'!</center></h1></font><br><br><br><br><font color="black"><h1><center>'+title1+'</center></h1></font><center>'+href1+'</center><br><center><a href='+permalink1+'>View Comments on Reddit</a></center><br><br><br><br><font color="black"><h1><center>'+title2+'</center></h1></font><center>'+href2+'</center><br><center><a href='+permalink2+'>View Comments on Reddit</a></center><br><br><br><br><font color="black"><h1><center>'+title3+'</center></h1></font><center>'+href3+'</center><br><center><a href='+permalink3+'>View Comments on Reddit</a></center><br><br><br><br></body>'
 
     sendgrid.send({
-      to: 'aedan.dispenza@gmail.com',
+      to: '',
       from: 'hackruviddit@gmail.com',
       subject: 'Your Top Reddit Videos',
       html: html  
