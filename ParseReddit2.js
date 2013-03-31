@@ -59,7 +59,8 @@ jsdom.env({
 		var permalink1 = permalink1[0].permalink
 		var permalink2 = permalink2[0].permalink
 		var permalink3 = permalink3[0].permalink
-		console.log(title1+".")
-		return [title1, title2, title3, href1, href2, href3, permalink1,permalink2, permalink3]
+
+		//once you have the info to send the email. write the 
+		
 })
 });
