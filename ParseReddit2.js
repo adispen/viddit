@@ -50,6 +50,5 @@ jsdom.env({
 				permalink: $('a.comments', thing).attr('href'),
 			}
 		});
-		console.log(permalink3)
 })
 });
