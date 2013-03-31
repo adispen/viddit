@@ -5,7 +5,7 @@ jsdom.env({
 	scripts: ['http://code.jquery.com/jquery.js'],
 	done: (function (errors, window) {
 		var $ = window.$;
-		var stories = $.map($('#siteTable .thing'), function (thing) {
+		var stories = $.map($('#siteTable .thing:lt(3)'), function (thing) {
 			return { 
 			title: $('a.title', thing).text(),
 			href: $('a.title', thing).attr('href'),
