@@ -63,7 +63,7 @@ jsdom.env({
 		var currentdate = new Date(); 
 		var datetime = + (currentdate.getMonth()+1)  + "/" 
 				+currentdate.getDate() + "/"
-                + currentdate.getFullYear() + " at "  
+                + currentdacdte.getFullYear() + " at "  
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes();
 
@@ -78,7 +78,7 @@ jsdom.env({
     var html = '<body><font color="black"><h1><center><br><br>Here are the top videos on Reddit for '+datetime+'!</center></h1></font><br><br><br><br><font color="black"><h1><center>'+title1+'</center></h1></font><center>'+href1+'</center><br><center><a href='+permalink1+'>View Comments on Reddit</a></center><br><br><br><br><font color="black"><h1><center>'+title2+'</center></h1></font><center>'+href2+'</center><br><center><a href='+permalink2+'>View Comments on Reddit</a></center><br><br><br><br><font color="black"><h1><center>'+title3+'</center></h1></font><center>'+href3+'</center><br><center><a href='+permalink3+'>View Comments on Reddit</a></center><br><br><br><br></body>'
 
     sendgrid.send({
-      to: 'hackruviddit@googlegroups.com',
+      to: 'aedan.dispenza@gmail.com',
       from: 'hackruviddit@gmail.com',
       subject: 'Your Top Reddit Videos',
       html: html  
