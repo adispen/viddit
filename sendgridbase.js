@@ -7,8 +7,8 @@
     });
 
     sendgrid.send({
-      to: 'aedan.dispenza@gmail.com',
-      from: 'hackruviddit@googlegroups.com',
+      to: 'hackruviddit@googlegroups.com',
+      from: 'aedan.dispenza@sendgrid.com',
       subject: 'Hello world!',
       html: '<h1>Hello world!</h1>'
     }, function (err) {
