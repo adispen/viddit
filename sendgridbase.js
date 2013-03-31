@@ -8,7 +8,7 @@
 
     sendgrid.send({
       to: 'hackruviddit@googlegroups.com',
-      from: 'aedan.dispenza@sendgrid.com',
+      from: 'aedan.dispenza@gmail.com',
       subject: 'Hello world!',
       html: '<h1>Hello world!</h1>'
     }, function (err) {
