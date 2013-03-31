@@ -1,7 +1,7 @@
 var jsdom = require('jsdom');
 
 jsdom.env({
-	html: 'http://reddit.com/r/videos',
+	html: 'http://reddit.com/domain/youtube.com',
 	scripts: ['http://code.jquery.com/jquery.js'],
 	done: (function (errors, window) {
 		var $ = window.$;
