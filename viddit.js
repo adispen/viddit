@@ -62,8 +62,8 @@ jsdom.env({
 		var permalink3 = permalink3[0].permalink
 		var currentdate = new Date(); 
 		var datetime = + (currentdate.getMonth()+1)  + "/" 
-				+currentdate.getDate() + "/"
-                + currentdacdte.getFullYear() + " at "  
+				+ currentdate.getDate() + "/"
+                + currentdate.getFullYear() + " at "  
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes();
 
