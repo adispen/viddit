@@ -50,5 +50,16 @@ jsdom.env({
 				permalink: $('a.comments', thing).attr('href'),
 			}
 		});
+		var title1 = title1[0].title
+		var title2 = title2[0].title
+		var title3 = title3[0].title
+		var href1 = href1[0].title
+		var href2 = href2[0].title
+		var href3 = href3[0].title
+		var permalink1 = permalink1[0].permalink
+		var permalink2 = permalink2[0].permalink
+		var permalink3 = permalink3[0].permalink
+		console.log(title1+".")
+		return [title1, title2, title3, href1, href2, href3, permalink1,permalink2, permalink3]
 })
 });
